@@ -2,8 +2,8 @@ clc;clear; close all;
 
 %Delta rule using gradient descent with linear activation function
 %initial value assignments
-train_data = load('/MATLAB Drive/AI/KOM_6110_NN/Back_Prop/class3_test.txt');
-test_data = load('/MATLAB Drive/AI/KOM_6110_NN/Back_Prop/class3_tr.txt');
+train_data = load('class3_test.txt');
+test_data = load('class3_tr.txt');
 
 sample_size = size(train_data,1);
 X=[ones(sample_size,1) train_data(:,1:2)]'; %Each coloumn is a sample
