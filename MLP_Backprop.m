@@ -1,6 +1,6 @@
 clc;clear; close all;
 
-%Delta rule using gradient descent with linear activation function
+%Delta rule using gradient descent with logarithmic sigmoid (1/1+e^-x) activation function
 %initial value assignments
 test_data = load('/MATLAB Drive/AI/KOM_6110_NN/Back_Prop/class3_test.txt');
 train_data = load('/MATLAB Drive/AI/KOM_6110_NN/Back_Prop/class3_tr.txt');
