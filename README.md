@@ -6,7 +6,6 @@ A Neural Network is coded  in the simplest form possible and also backpropagatio
 Momentum is NOT added to the code to keep it simple enough to read.
 
 TODO:
-1. I'll add another file to show MLP with momentum
-2. A generalized version of MLP BP with momentum will be added when I have time...
+1. A generalized version of MLP BP with momentum will be added when I have time...
 
 Model will be trained with kaggle data to guess hearth attack possibility.
